@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+         <h1>Listado de Tareas</h1>
+    </header>
+    <section class="container">
+         <div class="form-data">
+            <h2>Crea una nueva tarea</h2>
+            <form action="">
+                <label for="">Nombre:</label>
+                <input type="text" id="name">
+                <label for="">Descripsion:</label>
+                <textarea name="" id="description" rows="4"></textarea>
+                <label for="">Fecha tarea</label>
+                <input type="date" id="date">
+                <button type="button">Agregar</button>
+            </form>
+         </div>
+         <div class="list-add">
+             <h2>
+                Listado de tareas nuevas
+             </h2>
+             <ul>
+                 <li>
+                     <b><span id="name">Lavar los platos</span></b>
+                      <span id="description">Recordar lavar los platos</span>
+                      <div>
+                          <span id="date">2024-10-27</span>
+                          <span id="sattus" class="pending">Pendiente</span>
+                      </div>
+                      <div>
+                          <button type="button" class="success">Termiar</button>
+                          <button type="button" class="danger">Eliminar</button>
+                      </div>
+                    </li>
+                    <li>
+                        <b><span id="name">Lavar los platos</span></b>
+                         <span id="description">Recordar lavar los platos</span>
+                         <div>
+                             <span id="date">2024-10-27</span>
+                             <span id="sattus" class="pending">Pendiente</span>
+                         </div>
+                         <div>
+                             <button type="button" class="success">Termiar</button>
+                             <button type="button" class="danger">Eliminar</button>
+                         </div>
+                       </li>
+                       <li>
+                        <b><span id="name">Lavar los platos</span></b>
+                         <span id="description">Recordar lavar los platos</span>
+                         <div>
+                             <span id="date">2024-10-27</span>
+                             <span id="sattus" class="pending">Pendiente</span>
+                         </div>
+                         <div>
+                             <button type="button" class="success">Termiar</button>
+                             <button type="button" class="danger">Eliminar</button>
+                         </div>
+                       </li>
+             </ul>
+         </div>
+         <div class="list-clecked">
+             <p> Este es el listado de las tareas terminada </p>
+         </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
