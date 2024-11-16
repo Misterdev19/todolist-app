@@ -124,3 +124,60 @@ header {
     padding: 0 2px 0 2px;
     width: 100px;
 }
+/*estilos de la lista de tareas terminadas*/
+
+
+.container .list-clecked {
+    font-family: var(--font-title);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .list-clecked ul {
+    margin-top: 20px;
+}
+
+.container .list-clecked ul li {
+    display: grid;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+.container .list-clecked ul li .success {
+    background-color: var(--succes);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-clecked ul li .success:hover {
+    background-color: var(--succes-hover);
+}
+
+.container .list-clecked ul li .danger:hover {
+    background-color: var(--danger-hover);
+}
+
+.container .list-clecked ul li .danger {
+    background-color: var(--danger);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-clecked ul li .success {
+    background-color: var(--succes-hover);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 2px 0 2px;
+    width: 100px;
+}
